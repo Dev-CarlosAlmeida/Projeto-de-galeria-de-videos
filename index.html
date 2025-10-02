@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andressa Cesca - Vídeos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Andressa Cesca</h1>
+  <a href="https://www.youtube.com/@andressacesca/playlists" target="_blank" class="playlist-btn">▶️ Minha Playlist</a>
+</header>
+
+<main>
+  <!-- CARROSSEL TIPO NETFLIX -->
+  <section id="home">
+    <h2>Escolha um vídeo</h2>
+    <div class="carousel-container">
+      <button class="prev-btn">&#10094;</button>
+      <div class="carousel">
+        <div class="thumbnail-container">
+          <h4>1º MÊS BARIÁTRICA SLEEVE</h4>
+          <img src="assets/1 Mes.jpg" class="thumbnail" onclick="showVideo('video1')">
+        </div>
+        <div class="thumbnail-container">
+          <h4>2º MÊS BARIÁTRICA SLEEVE</h4>
+          <img src="assets/2 Mes.jpg" class="thumbnail" onclick="showVideo('video2')">
+        </div>
+        <div class="thumbnail-container">
+          <h4>3º MÊS BARIÁTRICA SLEEVE</h4>
+          <img src="assets/3 Mes.jpg" class="thumbnail" onclick="showVideo('video3')">
+        </div>
+        <div class="thumbnail-container">
+          <h4>4º MÊS BARIÁTRICA SLEEVE</h4>
+          <img src="assets/4 Mes.jpg" class="thumbnail" onclick="showVideo('video4')">
+        </div>
+      </div>
+      <button class="next-btn">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- SEÇÕES DE VÍDEOS -->
+  <section id="video1" class="video-section">
+    <iframe data-src="https://www.youtube.com/embed/fJxsYHvEvfs" frameborder="0" allowfullscreen></iframe>
+    <button class="voltar-btn" onclick="backHome()">Voltar</button>
+  </section>
+
+  <section id="video2" class="video-section">
+    <iframe data-src="https://www.youtube.com/embed/mP7zls0wFX0" frameborder="0" allowfullscreen></iframe>
+    <button class="voltar-btn" onclick="backHome()">Voltar</button>
+  </section>
+
+  <section id="video3" class="video-section">
+    <iframe data-src="https://www.youtube.com/embed/o6lPEr2QqKU" frameborder="0" allowfullscreen></iframe>
+    <button class="voltar-btn" onclick="backHome()">Voltar</button>
+  </section>
+
+  <section id="video4" class="video-section">
+    <iframe data-src="https://www.youtube.com/embed/aQF3OWuPA9c" frameborder="0" allowfullscreen></iframe>
+    <button class="voltar-btn" onclick="backHome()">Voltar</button>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
